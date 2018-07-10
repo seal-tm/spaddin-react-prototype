@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="bafaf8ae-0c9c-432e-9405-23f57e3ff8a2" 
+        solutionId="bafaf8ae-0c9c-432e-9405-23f57e3ff8a2" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="DmsLink.FabricReact.App"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="d8556ffe-fa87-4169-9842-3c2e1d09e98b" />
+  </features>
+</package>

@@ -1,0 +1,33 @@
+{
+  "name": "dms-link.fabric-react.ux",
+  "version": "0.0.1",
+  "description": "DmsLink.FabricReact.UX",
+  "main": "./src/index.tsx",
+  "author": {
+    "name": "tobiasm"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "webpack-dev-server --hot --inline --colors --progress"
+  },
+  "dependencies": {
+    "office-ui-fabric-react": "^6.26.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "typescript": "^2.9.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.4",
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "@types/sharepoint": "^2016.1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "react-hot-loader": "^4.3.3",
+    "ts-loader": "^4.4.2",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
