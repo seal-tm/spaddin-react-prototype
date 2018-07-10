@@ -1,0 +1,8 @@
+/DmsLink.FabricReact.App/obj/*
+/DmsLink.FabricReact.UX/node_modules/*
+/DmsLink.FabricReact.UX/dist/*
+/DmsLink.FabricReact.UX/obj/*
+/DmsLink.FabricReact.App/bin/*
+/DmsLink.FabricReact.App/pkg/*
+/DmsLink.FabricReact.App/pkgobj/*
+packages/*

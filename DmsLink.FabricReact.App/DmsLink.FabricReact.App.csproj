@@ -59,7 +59,7 @@
       <SharePointProjectItemId>{04b46351-8e08-485c-a5af-e57c3fffcdf1}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
+    <None Include="Scripts\App.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Content\SharePointProjectItem.spdata">
@@ -102,4 +102,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PreBuildEvent>copy "$(SolutionDir)DmsLink.FabricReact.UX\dist\bundle.js" "$(SolutionDir)DmsLink.FabricReact.App\Scripts\App.js"</PreBuildEvent>
+  </PropertyGroup>
 </Project>
